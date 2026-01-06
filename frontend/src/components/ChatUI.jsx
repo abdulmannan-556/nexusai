@@ -10,11 +10,11 @@ export default function ChatUI() {
     setLoading(true);
 
     try {
-      const res = await fetch("https://YOUR_WORKER_SUBDOMAIN.workers.dev", {
+      const res = await fetch("https://https://nexusai-hello.abdulmmm556.workers.dev/.workers.dev", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": "Bearer YOUR_WORKER_SECRET"
+          "Authorization": "Bearer s3cr3t123!@#"
         },
         body: JSON.stringify({ prompt })
       });
