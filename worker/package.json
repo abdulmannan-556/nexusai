@@ -1,0 +1,16 @@
+{
+  "name": "nexusai-worker",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.2025.12",
+    "typescript": "^5.2.2",
+    "wrangler": "^3.0.0"
+  }
+}
